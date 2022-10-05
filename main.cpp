@@ -11,10 +11,10 @@ int main() {
         listaNumeros.push_back(Numero(i));
     }
 
-    list<Numero>::iterator it;
+    list<Numero>::iterator iterar;
 
-    for (it = listaNumeros.begin(); it != listaNumeros.end(); it++) {
-        it->mostrarValor();
+    for (iterar = listaNumeros.begin(); iterar != listaNumeros.end(); iterar++) {
+        iterar->mostrarValor();
     }
 
     return 0;
